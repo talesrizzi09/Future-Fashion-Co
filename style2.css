@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif; 
+  /*Utilizado para definir a famila de fonte apresentada no site por ordem de maor prioridade*/
+    margin: 0;
+    /*Utilizado para definir margem, ou seja definir que não espaço em branco em volta*/
+    padding: 0;
+    /*Utilizado para informar o espaçamento entre o item e a sua borda*/
+    background-color: #dee0f3;
+    /*Utilizado para definir cor de fundo do site*/
+    text-align: justify;
+  }
+  
+  .container {
+    display: flex;
+    /*Define o elemento como um container flexível*/
+    flex-wrap: wrap;
+    /*Permite que os itens sejam envolvidos em várias linhas quando não couberem em uma única linha*/
+    align-items: flex-start;
+    /*Alinha os itens no eixo transversal (verticalmente) no início do container*/
+    justify-content: space-between;
+    /*Distribui o espaço disponível entre os itens, deixando um espaço igual entre eles*/
+    padding: 20px;
+    /*Adiciona um preenchimento interno de 20 pixels em todos os lados do contêiner*/
+  }
+  
+  .container img {
+    max-width: 100%;
+    /*Define a largura máxima da imagem como 100% do container*/
+    height: auto;
+   /* Mantém a proporção original da imagem, ajustando automaticamente a altura*/
+    width: 96%;
+    /*Define a largura da imagem como 96% do container*/
+  }
+  
+  .image {
+    width: 100%;
+    /*Define a largura da imagem como 100% do container*/
+    margin-bottom: 20px;
+    /*Adiciona uma margem inferior de 20 pixels para criar um espaçamento entre as imagens*/
+  }
+  
+  .text {
+    width: 100%;
+     /*Define a largura do elemento de texto como 100% do container*/
+  }
+  
+  /*header {
+    background-color: #1F2666;
+    /*Define cor de fundo do cabeçalho
+    padding: 10px; 
+    /*Adiciona um preenchimento interno de 10 pixels em todos os lados do cabeçalho
+    text-align: center;
+    /*Alinha o conteúdo do cabeçalho ao centro
+    display: flex;
+    /*Define o cabeçalho como um contêiner flexível
+    align-items: center;
+    /*Alinha os itens do cabeçalho verticalmente ao centro
+    justify-content: space-between;
+    /*Distribui o espaço disponível entre os itens do cabeçalho, deixando um espaço igual entre eles
+  }
+  
+  .abas a{
+    text-decoration: none;
+    /*Remove a decoração de texto nos links dentro das abas
+    color: #c0c3e0;
+    /*Define a cor do texto nos links dentro das abas
+  }
+  
+  .abas p{
+    margin-left: 15px;
+    /*Adiciona uma margem a esquerda de 15 pixels para os parágrafos dentro das abas
+  }
+  
+  nav {
+    display: flex;
+    /*Define o elemento nav como um contêiner flexível
+    flex-direction: column;
+    /*Define a direção dos itens do nav como coluna
+    align-items: flex-end;
+    /*Alinha os itens do nav ao final do eixo transversal (verticalmente)
+  }
+  
+  nav a {
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .logo img {
+    max-width: 110%;
+    height: auto;
+  }*/
+  
+  
+  footer {
+    background-color: #23232e;
+    padding: 10px;
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  .container2{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1 0 25%;
+    margin-bottom: 20px;
+  }
+  
+  h4 {
+  
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  ul li a {
+    color: #fffefe;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .conteudo {
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+   .container {
+      flex-direction: row;
+    }
+  
+    .image {
+      width: 30%;
+      margin-bottom: 0;
+    }
+  
+    .text {
+      width: 70%;
+    }
+  }
+  /**/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    font-size: 2px;
+    text-transform: uppercase;
+    width: 13vw;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 10vh;
+  }
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 0.125vw;
+    margin-left: 5vw; 
+   }
