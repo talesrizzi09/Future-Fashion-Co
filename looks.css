@@ -26,7 +26,7 @@ body{
       font-size: 2px;
       text-transform: uppercase;
       letter-spacing: 4px;
-      width: 170px;
+      width: 11vw;
     }
     
     nav {
@@ -86,18 +86,10 @@ body{
     margin-right: 18vw;
   }
   .catalog-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center ;
-    flex-wrap: wrap;
-    align-content: center;
-    row-gap: 20px;
-    column-gap: 30px;
-    width: ;
-      /*display: flex;
+  
+      display: flex;
       justify-content: space-between;
-      margin-left: 18vw;*/
+      margin-left: 18vw
   }
   
   .column {
@@ -105,17 +97,10 @@ body{
   }
   
   .image {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center ;
-    flex-wrap: wrap;
-    align-content: center;
-    row-gap: 70px;
-    column-gap: 30px;
-      /*display: block;
+  
+      display: block;
       width: 100%;
-      margin-bottom: 20vw;*/
+      margin-bottom: 20vw;
   }
   
   p{
